@@ -1,0 +1,31 @@
+﻿@using TestModule.Site.Common.Constants
+@using TestModule.Site.Presentation.Controllers
+@model TestModule.Site.Presentation.Models.UserRegistrationModel
+@{
+    ViewBag.Title = "Registration";
+    Layout = "~/Views/Common/Layouts/BaseSiteMaster.cshtml";
+}
+<div class="row-fluid">
+    <div class="text-left">
+        @Html.LabelFor(m => m.UserName)
+        @Html.TextBoxFor(m => m.UserName)
+
+        @Html.LabelFor(m => m.Password)
+        @Html.TextBoxFor(m => m.Password)
+
+        @Html.LabelFor(m => m.RePassword)
+        @Html.TextBoxFor(m => m.RePassword)
+
+        @Html.LabelFor(m => m.FirstName)
+        @Html.TextBoxFor(m => m.FirstName)
+
+        @Html.LabelFor(m => m.LastName)
+        @Html.TextBoxFor(m => m.LastName)
+
+        @Html.LabelFor(m => m.Email)
+        @Html.TextBoxFor(m => m.Email)
+    </div>
+
+    <a class="btn btn-primary" href="@Url.Action(Actions.RegisterUser, RegistrationController.Name)">Принять</a>
+    <a class="btn btn-link" href="@Url.Action(Actions.Index, HomeController.Name)">Отмена</a>
+</div>

@@ -1,0 +1,8 @@
+D:\Studi\TestModule\Site\TestModule.Site.Data\bin\Debug\TestModule.Site.Data.dll
+D:\Studi\TestModule\Site\TestModule.Site.Data\bin\Debug\TestModule.Site.Data.pdb
+D:\Studi\TestModule\Site\TestModule.Site.Data\bin\Debug\Dapper.dll
+D:\Studi\TestModule\Site\TestModule.Site.Data\bin\Debug\Dapper.pdb
+D:\Studi\TestModule\Site\TestModule.Site.Data\bin\Debug\Dapper.xml
+D:\Studi\TestModule\Site\TestModule.Site.Data\obj\Debug\TestModule.Site.Data.csprojResolveAssemblyReference.cache
+D:\Studi\TestModule\Site\TestModule.Site.Data\obj\Debug\TestModule.Site.Data.dll
+D:\Studi\TestModule\Site\TestModule.Site.Data\obj\Debug\TestModule.Site.Data.pdb

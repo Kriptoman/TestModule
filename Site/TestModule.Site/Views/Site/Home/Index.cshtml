@@ -1,0 +1,27 @@
+﻿@using TestModule.Site.Common.Constants
+
+@{
+    ViewBag.Title = "Добро пожаловать на сайт тестирования знаний от zas.prog";
+    Layout = Layouts.Base;
+}
+
+<div id="home-view">
+    <!--Content-->
+    <div class="container-fluid">
+        <div class="span10">
+            <!--Main block-->
+            <div style="padding: 5px; font-size: 18px; line-height: 30px;">
+                @if (HttpContext.Current.User.Identity.IsAuthenticated)
+                {
+                    Html.RenderPartial(Views.AuthUserHome);
+                }
+                else
+                {
+                    Html.RenderPartial(Views.NotAuthUserHome);
+                }
+            </div>
+            <hr />
+            <!--News block-->
+        </div>
+    </div>
+</div>

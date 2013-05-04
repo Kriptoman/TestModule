@@ -1,0 +1,29 @@
+﻿@using TestModule.Site.Common.Constants
+@using TestModule.Site.Presentation.Controllers
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="navbar-inner">
+    <div class="container-fluid">
+        <a class="brand" href="#">SoKT</a>
+        <div class="nav-collapse collapse">
+            
+            <span class="pull-right dropdown">
+                <span class="dropdown-toggle navbar-text" data-toggle="dropdown" style="cursor: pointer">Авторизация</span>
+
+                <ul class="dropdown-menu">
+                    <li><a href="#">Войти</a></li>
+                    <li><a href="@Url.Action(Actions.RegisterUser, RegistrationController.Name)">Регистрация</a></li>
+                    <li><a href="#">Забыли пароль?</a></li>
+                </ul>
+            </span>
+
+            <ul class="nav">
+                <li><a href="@Url.Action(Actions.Index, HomeController.Name)">Домашняя страница</a></li>
+                <li><a href="#">О системе</a></li>
+                <li><a href="#contacts">Контакты</a></li>
+            </ul>
+        </div>
+    </div>
+</div>

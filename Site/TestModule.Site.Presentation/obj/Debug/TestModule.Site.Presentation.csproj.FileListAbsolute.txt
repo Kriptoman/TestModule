@@ -1,0 +1,7 @@
+D:\Studi\TestModule\Site\TestModule.Site.Presentation\bin\Debug\TestModule.Site.Presentation.dll
+D:\Studi\TestModule\Site\TestModule.Site.Presentation\bin\Debug\TestModule.Site.Presentation.pdb
+D:\Studi\TestModule\Site\TestModule.Site.Presentation\bin\Debug\TestModule.Site.Common.dll
+D:\Studi\TestModule\Site\TestModule.Site.Presentation\bin\Debug\TestModule.Site.Common.pdb
+D:\Studi\TestModule\Site\TestModule.Site.Presentation\obj\Debug\TestModule.Site.Presentation.csprojResolveAssemblyReference.cache
+D:\Studi\TestModule\Site\TestModule.Site.Presentation\obj\Debug\TestModule.Site.Presentation.dll
+D:\Studi\TestModule\Site\TestModule.Site.Presentation\obj\Debug\TestModule.Site.Presentation.pdb

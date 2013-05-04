@@ -1,0 +1,33 @@
+<StyleCopSettings Version="105">
+  <Analyzers>
+    <Analyzer AnalyzerId="StyleCopPlus.StyleCopPlusRules">
+      <Rules>
+        <Rule Name="CheckAllowedIndentationCharacters">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="CheckWhetherLastCodeLineIsEmpty">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="AdvancedNamingRules">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+      </Rules>
+      <AnalyzerSettings>
+        <StringProperty Name="AdvancedNaming_ProtectedInstanceField">$(AaBb)</StringProperty>
+        <StringProperty Name="AdvancedNaming_PrivateInstanceField">_$(aaBb)</StringProperty>
+        <StringProperty Name="AdvancedNaming_ProtectedStaticField">$(AaBb)</StringProperty>
+        <StringProperty Name="AdvancedNaming_PrivateStaticField">$(AaBb)</StringProperty>
+        <StringProperty Name="AdvancedNaming_ProtectedConst">$(AaBb)</StringProperty>
+        <StringProperty Name="AdvancedNaming_PrivateConst">$(AaBb):$(AA_BB)</StringProperty>
+        <StringProperty Name="AdvancedNaming_Words">3D A B C FxCop ID IDs IP OK StyleCop X CSA PM DB RP USD</StringProperty>
+        <StringProperty Name="SP2100_Limit">160:4</StringProperty>
+      </AnalyzerSettings>
+    </Analyzer>
+  </Analyzers>
+</StyleCopSettings>

@@ -1,0 +1,7 @@
+D:\Studi\TestModule\Site\TestModule.Site.Common\bin\Debug\TestModule.Site.Common.dll
+D:\Studi\TestModule\Site\TestModule.Site.Common\bin\Debug\TestModule.Site.Common.pdb
+D:\Studi\TestModule\Site\TestModule.Site.Common\obj\Debug\TestModule.Site.Common.csprojResolveAssemblyReference.cache
+D:\Studi\TestModule\Site\TestModule.Site.Common\obj\Debug\TestModule.Site.Common.dll
+D:\Studi\TestModule\Site\TestModule.Site.Common\obj\Debug\TestModule.Site.Common.pdb
+D:\Studi\TestModule\Site\TestModule.Site.Common\obj\Debug\TestModule.Site.Common.Resources.Messages.resources
+D:\Studi\TestModule\Site\TestModule.Site.Common\obj\Debug\TestModule.Site.Common.csproj.GenerateResource.Cache
